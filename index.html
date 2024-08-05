@@ -1,0 +1,692 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+			<title>Login | Gyantech Learning Platform</title>
+	
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Amit kumar" />
+
+			<meta name="keywords" content="MERN,HTML,JAVASCRIPT,LEARN MERN FREE,LEARN FREE CODING,Free Coding Courses"/>
+		<meta name="description" content="Welcome to Gyantech Learning Platform - Empower Your Future Powered by Workboat Media Pvt Ltd.Study any topic, anytime. Explore thousands of courses for the lowest price ever! By showcasing the key benefits of Gyantech Learning Platform: 1.Welcoming and Inviting: Creates a positive first impression and invites users to explore the platform. 2. Empowerment: Communicates the value and impact of the courses on the learner&#039;s future. 3. Flexibility and Variety: Highlights the convenience of studying any topic at any time. 4. Affordability" />
+	
+	<!--Whatsapp-->
+	<meta property="og:title" content="Gyantech Learning Platform" />
+	<meta property="og:url" content="https://gyantech.online/" />
+	<meta property="og:description" content="Welcome to Gyantech Learning Platform - Empower Your Future Powered by Workboat Media Pvt Ltd.Study any topic, anytime. Explore thousands of courses for the lowest price ever! By showcasing the key benefits of Gyantech Learning Platform: 1.Welcoming and Inviting: Creates a positive first impression and invites users to explore the platform. 2. Empowerment: Communicates the value and impact of the courses on the learner&#039;s future. 3. Flexibility and Variety: Highlights the convenience of studying any topic at any time. 4. Affordability">
+	<meta property="og:image" content="https://gyantech.online/uploads/system/99503bdd3c5a4c4671ada72d6fd81433.jpg">
+	<meta property="og:type" content="website" />
+	<!--Whatsapp-->
+
+	<link name="favicon" type="image/x-icon" href="https://gyantech.online/uploads/system/2c50841de735ce690a33ce6706b34d0d.png" rel="shortcut icon" />
+	<link rel="favicon" href="https://gyantech.online/assets/frontend/default/img/icons/favicon.ico">
+<link rel="apple-touch-icon" href="https://gyantech.online/assets/frontend/default/img/icons/icon.png">
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/jquery.webui-popover.min.css">
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/select2.min.css">
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/slick.css">
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/slick-theme.css">
+<!-- font awesome 5 -->
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/fontawesome-all.min.css">
+
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/bootstrap-tagsinput.css">
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/main.css">
+<link rel="stylesheet" href="https://gyantech.online/assets/frontend/default/css/responsive.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://gyantech.online/assets/global/toastr/toastr.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nestable2/1.6.0/jquery.nestable.min.css" />
+<script src="https://gyantech.online/assets/backend/js/jquery-3.3.1.min.js"></script>
+
+</head>
+<body class="gray-bg">
+	<section class="menu-area">
+  <div class="container-xl">
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <ul class="mobile-header-buttons">
+            <li><a class="mobile-nav-trigger" href="#mobile-primary-nav">Menu<span></span></a></li>
+            <li><a class="mobile-search-trigger" href="#mobile-search">Search<span></span></a></li>
+          </ul>
+
+          <a href="https://gyantech.online/" class="navbar-brand" href="#"><img src="https://gyantech.online/uploads/system/e7e284c40b9e4218421b65d3bf7e47b9.png" alt="" height="35"></a>
+
+          <div class="main-nav-wrap">
+  <div class="mobile-overlay"></div>
+
+  <ul class="mobile-main-nav">
+    <div class="mobile-menu-helper-top"></div>
+
+    <li class="has-children">
+      <a href="">
+        <i class="fas fa-th d-inline"></i>
+        <span>Courses</span>
+        <span class="has-sub-category"><i class="fas fa-angle-right"></i></span>
+      </a>
+
+      <ul class="category corner-triangle top-left is-hidden pb-0">
+        <li class="go-back"><a href=""><i class="fas fa-angle-left"></i>Menu</a></li>
+
+            <li class="">
+        <a href="https://gyantech.online/home/courses?category=web-development" class="py-2">
+          <span class="icon"><i class="fas fa-file-code"></i></span>
+          <span>Web Development</span>
+          <span class="has-sub-category"><i class="fas fa-angle-right"></i></span>
+        </a>
+        <ul class="sub-category is-hidden">
+          <li class="go-back-menu"><a href=""><i class="fas fa-angle-left"></i>Menu</a></li>
+          <li class="go-back"><a href="">
+            <i class="fas fa-angle-left"></i>
+            <span class="icon"><i class="fas fa-file-code"></i></span>
+            Web Development          </a></li>
+                    <li><a href="https://gyantech.online/home/courses?category=html-css-js">HTML/CSS/JS</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=css">CSS</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=javascript">JavaScript</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=react">React</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=node-js">Node JS</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=express-js">Express JS</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=mongo-db">Mongo DB</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=mern">MERN</a></li>
+              </ul>
+    </li>
+        <li class="">
+        <a href="https://gyantech.online/home/courses?category=programming" class="py-2">
+          <span class="icon"><i class="fas fa-code"></i></span>
+          <span>Programming</span>
+          <span class="has-sub-category"><i class="fas fa-angle-right"></i></span>
+        </a>
+        <ul class="sub-category is-hidden">
+          <li class="go-back-menu"><a href=""><i class="fas fa-angle-left"></i>Menu</a></li>
+          <li class="go-back"><a href="">
+            <i class="fas fa-angle-left"></i>
+            <span class="icon"><i class="fas fa-code"></i></span>
+            Programming          </a></li>
+                    <li><a href="https://gyantech.online/home/courses?category=c-programming">C Programming</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=python">Python</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=java">Java</a></li>
+                  <li><a href="https://gyantech.online/home/courses?category=c-oops-language">C++ /OOPs language </a></li>
+              </ul>
+    </li>
+        <li class="">
+        <a href="https://gyantech.online/home/courses?category=dsa" class="py-2">
+          <span class="icon"><i class="fas fa-database"></i></span>
+          <span>DSA</span>
+          <span class="has-sub-category"><i class="fas fa-angle-right"></i></span>
+        </a>
+        <ul class="sub-category is-hidden">
+          <li class="go-back-menu"><a href=""><i class="fas fa-angle-left"></i>Menu</a></li>
+          <li class="go-back"><a href="">
+            <i class="fas fa-angle-left"></i>
+            <span class="icon"><i class="fas fa-database"></i></span>
+            DSA          </a></li>
+                    <li><a href="https://gyantech.online/home/courses?category=data-structure">Data Structure</a></li>
+              </ul>
+    </li>
+        <li class="">
+        <a href="https://gyantech.online/home/courses?category=net-jrf" class="py-2">
+          <span class="icon"><i class="Net-JRF"></i></span>
+          <span>Net-JRF</span>
+          <span class="has-sub-category"><i class="fas fa-angle-right"></i></span>
+        </a>
+        <ul class="sub-category is-hidden">
+          <li class="go-back-menu"><a href=""><i class="fas fa-angle-left"></i>Menu</a></li>
+          <li class="go-back"><a href="">
+            <i class="fas fa-angle-left"></i>
+            <span class="icon"><i class="Net-JRF"></i></span>
+            Net-JRF          </a></li>
+                    <li><a href="https://gyantech.online/home/courses?category=net-jrf-paper-1st">Net-JRF Paper 1st</a></li>
+              </ul>
+    </li>
+    <li class="all-category-devided mb-0 p-0">
+    <a href="https://gyantech.online/home/courses" class="py-3">
+      <span class="icon"><i class="fa fa-align-justify"></i></span>
+      <span>All courses</span>
+    </a>
+  </li>
+
+  </ul>
+</li>
+
+<div class="mobile-menu-helper-bottom"></div>
+</ul>
+</div>
+
+          <form class="inline-form" action="https://gyantech.online/home/search" method="get" style="width: 100%;">
+            <div class="input-group search-box mobile-search">
+              <input type="text" name = 'query' class="form-control" placeholder="Search for courses">
+              <div class="input-group-append">
+                <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </form>
+
+          
+          <div class="cart-box menu-icon-box" id = "cart_items">
+            <div class="icon">
+	<a href="javascript::" onclick="showCartPage()"><i class="fas fa-shopping-cart"></i></a>
+	<span class="number">0</span>
+</div>
+
+<!-- Cart Dropdown goes here -->
+<div class="dropdown course-list-dropdown corner-triangle top-right" style="display: none;"> <!-- Just remove the display none from the css to make it work -->
+	<div class="list-wrapper">
+		<div class="item-list">
+			<ul>
+							</ul>
+		</div>
+		<div class="dropdown-footer">
+			<div class="cart-total-price clearfix">
+				<span>Total:</span>
+				<div class="float-right">
+					<span class="current-price"></span>
+					<!-- <span class="original-price">$94.99</span> -->
+				</div>
+			</div>
+			<a href = "https://gyantech.online/home/shopping_cart">Go to cart</a>
+		</div>
+	</div>
+	<div class="empty-box text-center d-none">
+		<p>Your cart is empty.</p>
+		<a href="">Keep Shopping</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+function showCartPage() {
+	window.location.replace("https://gyantech.online/home/shopping_cart");
+}
+</script>
+          </div>
+
+          <span class="signin-box-move-desktop-helper"></span>
+          <div class="sign-in-box btn-group">
+
+            <a href="https://gyantech.online/home/login" class="btn btn-sign-in">Log in</a>
+
+            <a href="https://gyantech.online/home/sign_up" class="btn btn-sign-up">Sign up</a>
+
+          </div> <!--  sign-in-box end -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<link rel="stylesheet" type="text/css" href="https://gyantech.online/assets/frontend/eu-cookie/purecookie.css" async />
+
+<div class="cookieConsentContainer" id="cookieConsentContainer" style="opacity: .9; display: block; display: none;">
+  <!-- <div class="cookieTitle">
+    <a>Cookies.</a>
+  </div> -->
+  <div class="cookieDesc">
+    <p>
+      Cookie Notice
+Welcome to the Gyantech Learning Platform
+We use cookies to enhance your experience on our website. By continuing to browse, you agree to our use of cookies. Cookies help us improve our services, personalize your experience, and provide you with relevant content and ads. 
+To learn more about how we use cookies and how you can manage them, please read our [Cookie Policy].      <a class="link-cookie-policy" href="https://gyantech.online/home/cookie_policy">Cookie policy</a>
+    </p>
+  </div>
+  <div class="cookieButton">
+    <a onclick="cookieAccept();">Accept</a>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    if (localStorage.getItem("accept_cookie_academy")) {
+      //localStorage.removeItem("accept_cookie_academy");
+    }else{
+      $('#cookieConsentContainer').fadeIn(1000);
+    }
+  });
+
+  function cookieAccept() {
+    if (typeof(Storage) !== "undefined") {
+      localStorage.setItem("accept_cookie_academy", true);
+      localStorage.setItem("accept_cookie_time", "08/02/2024");
+      $('#cookieConsentContainer').fadeOut(1200);
+    }
+  }
+</script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<section class="category-header-area">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col">
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="https://gyantech.online/home"><i class="fas fa-home"></i></a></li>
+                        <li class="breadcrumb-item">
+                            <a href="#">
+                                Login                            </a>
+                        </li>
+                    </ol>
+                </nav>
+                <h1 class="category-name">
+                    Registered user                </h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="category-course-list-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <div class="user-dashboard-box mt-3">
+                  <div class="user-dashboard-content w-100 login-form">
+                      <div class="content-title-box">
+                          <div class="title">Login</div>
+                          <div class="subtitle">Provide your valid login credentials.</div>
+                      </div>
+                      <form action="https://gyantech.online/login/validate_login/user" method="post" id="login">
+                          <div class="content-box">
+                              <div class="basic-group">
+                                  <div class="form-group">
+                                      <label for="login-email"><span class="input-field-icon"><i class="fas fa-envelope"></i></span> Email:</label>
+                                      <input type="email" class="form-control" name = "email" id="login-email" placeholder="Email" value="" required>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="login-password"><span class="input-field-icon"><i class="fas fa-lock"></i></span> Password:</label>
+                                      <input type="password" class="form-control" name = "password" placeholder="Password" value="" required>
+                                  </div>
+                                                                      <div class="form-group">
+                                      <div class="g-recaptcha" data-sitekey="6Ld8hBgqAAAAABN9yS7XHXXSyCR1VQbP2vis9oIC"></div>
+                                    </div>
+                                                                </div>
+                          </div>
+                          <div class="content-update-box">
+                                <button class="btn" type="submit">Login</button>
+                          </div>
+                          <div class="forgot-pass text-center">
+                              <span>Or</span>
+                              <a href="javascript::" onclick="toggoleForm('forgot_password')">Forgot password</a>
+                          </div>
+                          <div class="account-have text-center">
+                              Do not have an account? <a href="javascript::" onclick="toggoleForm('registration')">Sign up</a>
+                          </div>
+                      </form>
+                  </div>
+                  <div class="user-dashboard-content w-100 register-form hidden">
+                      <div class="content-title-box">
+                          <div class="title">Registration form</div>
+                          <div class="subtitle">Sign up and start learning.</div>
+                      </div>
+                      <form action="https://gyantech.online/login/register" method="post" id="sign_up">
+                          <div class="content-box">
+                              <div class="basic-group">
+                                  <div class="form-group">
+                                      <label for="first_name"><span class="input-field-icon"><i class="fas fa-user"></i></span> First name:</label>
+                                      <input type="text" class="form-control" name = "first_name" id="first_name" placeholder="First name" value="" required>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="last_name"><span class="input-field-icon"><i class="fas fa-user"></i></span> Last name:</label>
+                                      <input type="text" class="form-control" name = "last_name" id="last_name" placeholder="Last name" value="" required>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="registration-email"><span class="input-field-icon"><i class="fas fa-envelope"></i></span> Email:</label>
+                                      <input type="email" class="form-control" name = "email" id="registration-email" placeholder="Email" value="" required>
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="registration-password"><span class="input-field-icon"><i class="fas fa-lock"></i></span> Password:</label>
+                                      <input type="password" class="form-control" name = "password" id="registration-password" placeholder="Password" value="" required>
+                                  </div>
+                                                                      <div class="form-group">
+                                      <div class="g-recaptcha" data-sitekey="6Ld8hBgqAAAAABN9yS7XHXXSyCR1VQbP2vis9oIC"></div>
+                                    </div>
+                                                                </div>
+                          </div>
+                          <div class="content-update-box">
+                                <button class="btn" type="submit">Sign up</button>
+                          </div>
+                          <div class="account-have text-center">
+                              Already have an account? <a href="javascript::" onclick="toggoleForm('login')">Login</a>
+                          </div>
+                      </form>
+                  </div>
+
+                  <div class="user-dashboard-content w-100 forgot-password-form hidden">
+                      <div class="content-title-box">
+                          <div class="title">Forgot password</div>
+                          <div class="subtitle">Provide your email address to get password.</div>
+                      </div>
+                      <form action="https://gyantech.online/login/forgot_password/frontend" method="post" id="forgot_password">
+                          <div class="content-box">
+                              <div class="basic-group">
+                                  <div class="form-group">
+                                      <label for="forgot-email"><span class="input-field-icon"><i class="fas fa-envelope"></i></span> Email:</label>
+                                      <input type="email" class="form-control" name = "email" id="forgot-email" placeholder="Email" value="" required>
+                                      <small class="form-text text-muted">Provide your email address to get password.</small>
+                                  </div>
+                                                                      <div class="form-group">
+                                      <div class="g-recaptcha" data-sitekey="6Ld8hBgqAAAAABN9yS7XHXXSyCR1VQbP2vis9oIC"></div>
+                                    </div>
+                                                                </div>
+                          </div>
+                          
+                          <div class="content-update-box">
+                              <button class="btn" type="submit">Reset password</button>
+                          </div>
+                          <div class="forgot-pass text-center">
+                              Want to go back? <a href="javascript::" onclick="toggoleForm('login')">Login</a>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+  function toggoleForm(form_type) {
+    if (form_type === 'login') {
+      $('.login-form').show();
+      $('.forgot-password-form').hide();
+      $('.register-form').hide();
+    }else if (form_type === 'registration') {
+      $('.login-form').hide();
+      $('.forgot-password-form').hide();
+      $('.register-form').show();
+    }else if (form_type === 'forgot_password') {
+      $('.login-form').hide();
+      $('.forgot-password-form').show();
+      $('.register-form').hide();
+    }
+  }
+</script>
+<footer class="footer-area d-print-none">
+  <div class="container-xl">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="copyright-text">
+          <a href=""><img src="https://gyantech.online/uploads/system/e7e284c40b9e4218421b65d3bf7e47b9.png" alt="" class="d-inline-block" width="110"></a>
+          <a href="http://creativeitem.com/" target="_blank">Gyantech Learning Platform</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav justify-content-md-end footer-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="https://gyantech.online/home/about_us">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gyantech.online/home/privacy_policy">Privacy policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gyantech.online/home/terms_and_condition">Terms and condition</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://gyantech.online/home/login">
+              Login            </a>
+          </li>
+          <li>
+            <select class="language_selector" onchange="switch_language(this.value)">
+                                                            <option value="english" selected>English</option>
+                                                                                <option value="hindi" >Hindi</option>
+                                                </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- PAYMENT MODAL -->
+<!-- Modal -->
+
+<!-- Modal -->
+<div class="modal fade multi-step" id="EditRatingModal" tabindex="-1" role="dialog" aria-hidden="true" reset-on-close="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content edit-rating-modal">
+      <div class="modal-header">
+        <h5 class="modal-title step-1" data-step="1">Step 1</h5>
+        <h5 class="modal-title step-2" data-step="2">Step 2</h5>
+        <h5 class="m-progress-stats modal-title">
+          &nbsp;of&nbsp;<span class="m-progress-total"></span>
+        </h5>
+
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="m-progress-bar-wrapper">
+        <div class="m-progress-bar">
+        </div>
+      </div>
+      <div class="modal-body step step-1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="modal-rating-box">
+                <h4 class="rating-title">How would you rate this course overall?</h4>
+                <fieldset class="your-rating">
+
+                  <input type="radio" id="star5" name="rating" value="5" />
+                  <label class = "full" for="star5"></label>
+
+                  <!-- <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                  <label class="half" for="star4half"></label> -->
+
+                  <input type="radio" id="star4" name="rating" value="4" />
+                  <label class = "full" for="star4"></label>
+
+                  <!-- <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                  <label class="half" for="star3half"></label> -->
+
+                  <input type="radio" id="star3" name="rating" value="3" />
+                  <label class = "full" for="star3"></label>
+
+                  <!-- <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                  <label class="half" for="star2half"></label> -->
+
+                  <input type="radio" id="star2" name="rating" value="2" />
+                  <label class = "full" for="star2"></label>
+
+                  <!-- <input type="radio" id="star1half" name="rating" value="1 and a half" />
+                  <label class="half" for="star1half"></label> -->
+
+                  <input type="radio" id="star1" name="rating" value="1" />
+                  <label class = "full" for="star1"></label>
+
+                  <!-- <input type="radio" id="starhalf" name="rating" value="half" />
+                  <label class="half" for="starhalf"></label> -->
+
+                </fieldset>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="modal-course-preview-box">
+                <div class="card">
+                  <img class="card-img-top img-fluid" id = "course_thumbnail_1" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title" class = "course_title_for_rating" id = "course_title_1"></h5>
+                    <p class="card-text" id = "instructor_details">
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-body step step-2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="modal-rating-comment-box">
+                <h4 class="rating-title">Write a public review</h4>
+                <textarea id = "review_of_a_course" name = "review_of_a_course" placeholder="Describe your experience what you got out of the course and other helpful highlights. What did the instructor do well and what could use some improvement?" maxlength="65000" class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="modal-course-preview-box">
+                <div class="card">
+                  <img class="card-img-top img-fluid" id = "course_thumbnail_2" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title" class = "course_title_for_rating" id = "course_title_2"></h5>
+                    <p class="card-text">
+                      -
+                      sunil kumar                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="hidden" name="course_id" id = "course_id_for_rating" value="">
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary next step step-1" data-step="1" onclick="sendEvent(2)">Next</button>
+        <button type="button" class="btn btn-primary previous step step-2 mr-auto" data-step="2" onclick="sendEvent(1)">Previous</button>
+        <button type="button" class="btn btn-primary publish step step-2" onclick="publishRating($('#course_id_for_rating').val())" id = "">Publish</button>
+      </div>
+    </div>
+  </div>
+</div><!-- Modal -->
+
+<script type="text/javascript">
+    function switch_language(language) {
+        $.ajax({
+            url: 'https://gyantech.online/home/site_language',
+            type: 'post',
+            data: {language : language},
+            success: function(response) {
+                setTimeout(function(){ location.reload(); }, 500);
+            }
+        });
+    }
+</script>
+<script src="https://gyantech.online/assets/frontend/default/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/vendor/jquery-3.2.1.min.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/popper.min.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/bootstrap.min.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/slick.min.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/select2.min.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/tinymce.min.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/multi-step-modal.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/jquery.webui-popover.min.js"></script>
+<script src="https://content.jwplatform.com/libraries/O7BMTay5.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/main.js"></script>
+<script src="https://gyantech.online/assets/global/toastr/toastr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nestable2/1.6.0/jquery.nestable.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/bootstrap-tagsinput.min.js"></script>
+<script src="https://gyantech.online/assets/frontend/default/js/custom.js"></script>
+
+<!-- SHOW TOASTR NOTIFIVATION -->
+
+
+<script type="text/javascript">
+function showAjaxModal(url)
+{
+    // SHOWING AJAX PRELOADER IMAGE
+    jQuery('#modal_ajax .modal-body').html('<div class="w-100 text-center pt-5"><img class="mt-5 mb-5" width="80px" src="https://gyantech.online/assets/global/gif/page-loader-2.gif"></div>');
+
+    // LOADING THE AJAX MODAL
+    jQuery('#modal_ajax').modal('show', {backdrop: 'true'});
+
+    // SHOW AJAX RESPONSE ON REQUEST SUCCESS
+    $.ajax({
+        url: url,
+        success: function(response)
+        {
+            jQuery('#modal_ajax .modal-body').html(response);
+        }
+    });
+}
+</script>
+
+<!-- (Ajax Modal)-->
+<div class="modal fade" id="modal_ajax">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body" style="overflow:auto;">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+function confirm_modal(delete_url)
+{
+    jQuery('#modal-4').modal('show', {backdrop: 'static'});
+    document.getElementById('delete_link').setAttribute('href' , delete_url);
+}
+</script>
+
+<!-- (Normal Modal)-->
+<div class="modal fade" id="modal-4">
+    <div class="modal-dialog">
+        <div class="modal-content" style="margin-top:100px;">
+
+            <div class="modal-header">
+                <h4 class="modal-title text-center">Are you sure ?</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+
+
+            <div class="modal-footer" style="margin:0px; border-top:0px; text-align:center;">
+                <a href="#" class="btn btn-danger btn-yes" id="delete_link" data-dismiss="modal">Yes</a>
+                <button type="button" class="btn btn-info btn-cancel" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+function async_modal() {
+    const asyncModal = new Promise(function(resolve, reject){
+        $('#modal-4').modal('show');
+        $('#modal-4 .btn-yes').click(function(){
+            resolve(true);
+        });
+        $('#modal-4 .btn-cancel').click(function(){
+            resolve(false);
+        });
+    });
+    return asyncModal;
+}
+</script>
+<script type="text/javascript">
+function toggleRatingView(course_id) {
+  $('#course_info_view_'+course_id).toggle();
+  $('#course_rating_view_'+course_id).toggle();
+  $('#edit_rating_btn_'+course_id).toggle();
+  $('#cancel_rating_btn_'+course_id).toggle();
+}
+
+function publishRating(course_id) {
+    var review = $('#review_of_a_course_'+course_id).val();
+    var starRating = 0;
+    starRating = $('#star_rating_of_course_'+course_id).val();
+    if (starRating > 0) {
+        $.ajax({
+            type : 'POST',
+            url  : 'https://gyantech.online/home/rate_course',
+            data : {course_id : course_id, review : review, starRating : starRating},
+            success : function(response) {
+                location.reload();
+            }
+        });
+    }else{
+
+    }
+}
+</script>
+</body>
+</html>
